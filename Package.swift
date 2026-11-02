@@ -20,7 +20,7 @@ let package = Package(
         // Pinned exactly: upgrades are deliberate, and must keep building with Swift 6.1 (ADR 0003).
         .package(url: "https://github.com/groue/GRDB.swift", exact: "7.11.1"),
         // Updates for builds distributed outside the Mac App Store (ADR 0002).
-        .package(url: "https://github.com/sparkle-project/Sparkle", exact: "2.10.0"),
+        .package(url: "https://github.com/sparkle-project/Sparkle", exact: "2.10.1"),
     ],
     targets: [
         .executableTarget(
